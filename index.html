@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="refresh" content="300">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>气象</title>
+<link href="multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<script src="http://tqyb.com.cn/data/shorttime/gz_shorttime.js"></script> 
+<script src="http://tqyb.com.cn/data/obtStatistics/gz_obtStatistics.js"></script> 
+<script src="http://tqyb.com.cn/data/gzWeather/livingIndex.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="primary_header">
+  <p class="title"> 广州市基本气象信息</p>
+</div>
+<marquee id="info" class="secondary_header">
+</marquee>
+<div>
+<div class="mm">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab1">
+    <tbody>
+      <tr>
+        <td align="center" class="a001">全市气象极值</td>
+      </tr>
+      <tr>
+        <td id="tm"></td>
+      </tr>
+      <tr>
+        <td id="tmi"></td>
+      </tr>
+      <tr>
+        <td id="rm"></td>
+      </tr>
+      <tr>
+        <td id="wm"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="t2">
+    <p align="center" class="title1">生活指数预报</p>
+    <table width="400" border="1" cellspacing="0" cellpadding="0" class="tab2" align="center">
+  <tbody>
+    <tr>
+      <td>紫外线</td>
+      <td id="uv">&nbsp;</td>
+      <td>火险</td>
+      <td id="fi">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>雨伞</td>
+      <td id="um">&nbsp;</td>
+      <td>预报气温</td>
+      <td id="ft"></td>
+    </tr>
+    <tr>
+      <td>预报湿度</td>
+      <td id="fh">&nbsp;</td>
+      <td>霉变</td>
+      <td id="mb">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<script src="1.js"></script>
+</div>
+</body>
+</html>
